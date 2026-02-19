@@ -1,0 +1,119 @@
+# -----------------------------------------------------------------------------
+# Fine-grained NER tags (0..72)
+# -----------------------------------------------------------------------------
+# # Outside of ner tag
+# 0. O
+# ----------------------------------------
+# # **LOC**: Facility · OtherLOC · HumanSettlement · Station
+# 1. B-Facility
+# 2. I-Facility
+# 3. B-OtherLOC
+# 4. I-OtherLOC
+# 5. B-HumanSettlement
+# 6. I-HumanSettlement
+# 7. B-Station
+# 8. I-Station
+# ----------------------------------------
+# # **CW**: VisualWork · MusicalWork · WrittenWork · ArtWork · Software
+# 9. B-VisualWork
+# 10. I-VisualWork
+# 11. B-MusicalWork
+# 12. I-MusicalWork
+# 13. B-WrittenWork
+# 14. I-WrittenWork
+# 15. B-ArtWork
+# 16. I-ArtWork
+# 17. B-Software
+# 18. I-Software
+# 19. B-OtherCW
+# 20. I-OtherCW
+# ----------------------------------------
+# # **GRP**: MusicalGRP · PublicCORP · PrivateCORP · AerospaceManufacturer · SportsGRP · CarManufacturer · ORG
+# 21. B-MusicalGRP
+# 22. I-MusicalGRP
+# 23. B-PublicCorp
+# 24. I-PublicCorp
+# 25. B-PrivateCorp
+# 26. I-PrivateCorp
+# 27. B-OtherCorp
+# 28. I-OtherCorp
+# 29. B-AerospaceManufacturer
+# 30. I-AerospaceManufacturer
+# 31. B-SportsGRP
+# 32. I-SportsGRP
+# 33. B-CarManufacturer
+# 34. I-CarManufacturer
+# 35. B-TechCORP
+# 36. I-TechCORP
+# 37. B-ORG
+# 38. I-ORG
+# ----------------------------------------
+# # **PER**: Scientist · Artist · Athlete · Politician · Cleric · SportsManager · OtherPER
+# 39. B-Scientist
+# 40. I-Scientist
+# 41. B-Artist
+# 42. I-Artist
+# 43. B-Athlete
+# 44. I-Athlete
+# 45. B-Politician
+# 46. I-Politician
+# 47. B-Cleric
+# 48. I-Cleric
+# 49. B-SportsManager
+# 50. I-SportsManager
+# 51. B-OtherPER
+# 52. I-OtherPER
+# ----------------------------------------
+# # **PROD**: Clothing · Vehicle · Food · Drink · OtherPROD
+# 53. B-Clothing
+# 54. I-Clothing
+# 55. B-Vehicle
+# 56. I-Vehicle
+# 57. B-Food
+# 58. I-Food
+# 59. B-Drink
+# 60. I-Drink
+# 61. B-OtherPROD
+# 62. I-OtherPROD
+# ----------------------------------------
+# # **MED**: Medication/Vaccine · MedicalProcedure · AnatomicalStructure · Symptom · Disease
+# 63. B-Medication/Vaccine
+# 64. I-Medication/Vaccine
+# 65. B-MedicalProcedure
+# 66. I-MedicalProcedure
+# 67. B-AnatomicalStructure
+# 68. I-AnatomicalStructure
+# 69. B-Symptom
+# 70. I-Symptom
+# 71. B-Disease
+# 72. I-Disease
+# -----------------------------------------------------------------------------
+# Coarse BIO tag set (0..12) (BIO preserved)
+# -----------------------------------------------------------------------------
+# # Outside of ner tag
+# 0. O
+# ----------------------------------------
+# # **LOC**
+# 1. B-LOC
+# 2. I-LOC
+# ----------------------------------------
+# # **CW**
+# 3. B-CW
+# 4. I-CW
+# ----------------------------------------
+# # **GRP**
+# 5. B-GRP
+# 6. I-GRP
+# ----------------------------------------
+# # **PER**
+# 7. B-PER
+# 8. I-PER
+# ----------------------------------------
+# # **PROD**
+# 9. B-PROD
+# 10. I-PROD
+# ----------------------------------------
+# # **MED**
+# 11. B-MED
+# 12. I-MED
+# -----------------------------------------------------------------------------
